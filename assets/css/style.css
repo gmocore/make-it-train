@@ -1,0 +1,25 @@
+body {
+  background-color: #f7f7f2;
+  background: url("./images/pexels-photo-258510.jpeg");
+  background-size: cover;
+}
+.jumbotron {
+  background-color: #6b818c;
+  color: #fff;
+  background: url("./images/pexels-photo-1759731.jpeg");
+  letter-spacing: 1.5px;
+}
+
+.form {
+  background-color: #2660a4;
+  color: #edf7f6;
+}
+
+tbody > tr {
+  transition: 0.8s;
+}
+
+tbody > tr:hover {
+  color: #9ee493;
+  letter-spacing: 1.5px;
+}

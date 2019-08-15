@@ -30,6 +30,36 @@
             <p>it's the train scheduling app you always dreamed of!</p>
             <p>No in-app purchases or subscription fee!</p>
         </div>
+
+
+    </div>
+
+
+    <div class="container mb-5">
+        <form class="border p-3 rounded shadow-sm form">
+            <p class="lead font-weight-bold">Add Train</p>
+            <div class="form-group">
+                <label for="train-name">Train name</label>
+                <input type="text" class="form-control" id="train-name" placeholder="Enter a train name">
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination</label>
+                <input type="text" class="form-control" id="destination" placeholder="Enter a destination">
+            </div>
+            <div class="form-group">
+                <label for="first-train-time">First Train Time (HH:mm - military time)</label>
+                <input type="number" class="form-control" id="first-train-time"
+                    placeholder="Enter military time (HHmm, numbers only)">
+            </div>
+            <div class="form-group">
+                <label for="frequency">frequency</label>
+                <input type="number" class="form-control" id="frequency" placeholder="enter frequency (minutes)">
+            </div>
+            <button class="btn btn-dark font-weight-bold" id="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="container">
         <table class="table table-striped table-dark rounded shadow">
             <thead>
                 <tr>
@@ -47,30 +77,6 @@
 
             </tbody>
         </table>
-
-    </div>
-    <div class="container mb-5">
-        <form class="border p-3 rounded shadow-sm form">
-            <p class="lead font-weight-bold">Add Train</p>
-            <div class="form-group">
-                <label for="train-name">Train name</label>
-                <input type="text" class="form-control" id="train-name" placeholder="Enter a train name">
-            </div>
-            <div class="form-group">
-                <label for="destination">Destination</label>
-                <input type="text" class="form-control" id="destination" placeholder="Enter a destination">
-            </div>
-            <div class="form-group">
-                <label for="first-train-time">First Train Time (HH:mm - military time)</label>
-                <input type="number" class="form-control" id="first-train-time"
-                    placeholder="Enter military time (HH:mm)">
-            </div>
-            <div class="form-group">
-                <label for="frequency">frequency</label>
-                <input type="number" class="form-control" id="frequency" placeholder="enter frequency (minutes)">
-            </div>
-            <button class="btn btn-dark font-weight-bold" id="submit">Submit</button>
-        </form>
     </div>
 
 
@@ -90,7 +96,7 @@
 
     <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-database.js"></script>
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
